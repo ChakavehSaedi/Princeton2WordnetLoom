@@ -1,5 +1,5 @@
 # Princeton2WordnetLoom
-This code, in Python 2.7, transfers data.noun from Princeton format into the format acceptable by WordNetLoom.
+This code, in Python 2.7, transfers data.noun from Princeton format into the format acceptable by WordNetLoom [http://nlp.pwr.wroc.pl/narzedzia-i-zasoby/narzedzia/wordnetloom].
 
 Make sure you have "MySQLdb" installed.
 
