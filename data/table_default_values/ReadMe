@@ -1,0 +1,47 @@
+This folder contains all the default and primary values to be inserted in the tables (for 2 wordnets-Princeton and another language currently Portuguese).
+
+- Each file has the same name as the corresponding table in WordnetLoom database.
+So the data in each file will be transfered to the corresponding table in the sql database of WordnetLoom. 
+
+- Each file follows the following format
+1st line:    [field1]\t[field2]\t[...]
++1 lines:    [data1]\t[data2]\t[...]
+
+IMPORTANT:
+- the first line indicates if there is a connection between the currect file/table and another one using a name typed in paranthesis. 
+For example 
+in the file/table "relation_type", the field "argument_type" refers to "relation_argument" file/table; so the first line in "relation_type" file contains
+ ... --argument_type(relation_argument)-- ... .
+NOTE: Do not change the first line in the files as you then need to change the code related to table connections.
+
+-If table A referes to table B, the ID of the connected entry in table B is used as the value in the correspoding field in table A.
+For example 
+The first line in "relation_type" file contains ... --argument_type(relation_argument)-- ... which suggests the field "argument_type" receives its value from relation_argument table.
+If in "relation_argument" table, there is an entry such as [Id =1,	name=SYNSET],and 
+in the "relation_type" table, there is a relation which works with synsets, the value for the field "argument_type" should be 1.
+
+-In case of changing the id_value in any of the files, the change must be MANUALLY taken care of in other files as well. (Except for text table entries which all the changes are automatically handeled)
+For example 
+In the previous sample, if in "relation_argument", [Id =1,	name=SYNSET] is change to [Id =5,	name=SYNSET], "argument_type = 1", should also change to "argument_type = 5" in the "relation_type" table.
+[keep in mind that it is just an example and the data in "relation_argument" table should not be changed for WordNetLoom to work properly]
+
+NOTE:
+- Current values in these files are the ones used for the the Portuguese set-up. Update are possible with full attention to the file format, examples and updating the id as explained above.[Using an excel file makes updating relation_type much easier. Insert the values in the excel file, then copy the result into relation_type text file]
+
+- Based on WordnetLoom setting, the id field in all the tables starts from 1 except for the following tables in which it starts from 0:
+Domain, Part_of_speech, lexicon and relation_argument
+in the first 3 files/tables, the entry in the first row should be related to unknown data.
+
+- The data in relation_argument should not changed.
+
+- In the current setting of wordnetloom "Princeton wordnet" should be the second lexicon.
+
+- There should be no "_" in the text of entries related to domain and part_of_speech tables.
+
+- In relation_type table if the parrent field is not set to NULL that relation wouldn't be shown in the graphical view. Unless defining a head relation and set that one to NULL.
+
+- To get information about the database structure, please contact the Polish team.
+
+
+
+

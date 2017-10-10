@@ -1,0 +1,49 @@
+#tst:Antonym_pt-noun_test
+1. X and Y are kinds of Z
+Man and woman are kinds of human being.
+2. It is untrue that someone/something is not X and not Y at the same time
+It is untrue that someone is not a man and not a woman at the same time.
+#tst:Hypernym_pt-noun_test
+1. X  is  a  kind  of  Y  (with certain features)
+A car is a kind of a vehicle.
+2. Y is not a kind of X
+A  vehicle  is  not  a  kind of a car.
+3. Z (≠ X) is also a kind of Y
+A  bicycle  is  also  a  kind of a vehicle.
+#tst:Hyponym_pt-noun_test
+1. X  is  a  kind  of  Y  (with certain features)
+A car is a kind of a vehicle.
+2. Y is not a kind of X
+A  vehicle  is  not  a  kind of a car.
+3. Z (≠ X) is also a kind of Y
+A  bicycle  is  also  a  kind of a vehicle.
+#tst:Member-holonym_pt-noun_test
+Y is a whole whose element is X
+A  library is  a  whole  whose  element is a book.
+#tst:Substance-holonym_pt-noun_test
+Y is a whole made (entirely or partially) of X
+A blade is made of metal.
+#tst:Part-holonym_pt-noun_test
+Y is a whole whose parts are X
+A  bicycle is  a  whole  whose  parts are wheels.
+#tst:Member-meronym_pt-noun_test
+X is an element of Y
+A book is an element of a library.
+#tst:Substance-meronym_pt-noun_test
+X is stuff of which something Y is made
+Metal is stuff of which a blade is made.
+#tst:Part-meronym_pt-noun_test
+X is a part of Y
+A wheel is a part of a bicycle.
+#tst:Synonym_pt-noun_test
+1. If it is X, it is also Y
+If it is a drink, it is also a beverage.
+2. If it is Y, it is also X
+If it is a beverage, it is also a drink.
+#tst:Entailment_pt-noun_test
+1.If someone is doing X, they are also doing Y
+If someone runs, they also move.
+2.If someone is doing Y, they are not necessary doing X
+If someone moves, they do not necessary run.
+3.There are other such activities
+If someone walks, they also move.

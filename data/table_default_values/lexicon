@@ -1,0 +1,4 @@
+--id--	--name(text)--	--lexicon_identifier(text)--	--language(text)--
+0	UNKNOWN	unkwn	NULL
+1	pt-wordnet	Pt-3	pt
+2	en-wordnet	En-3.1	en

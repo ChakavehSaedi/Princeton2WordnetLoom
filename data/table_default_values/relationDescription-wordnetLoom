@@ -1,0 +1,29 @@
+#txt:pt_syn_Antonym-desc
+Generally, an antonym is a word that expresses a meaning opposed to the meaning of another word: 'rápido' (fast) ≠ 'lento' (slow)
+It includes:
+- typical opposition pairs (wise ≠ stupid)
+- pairs of complementary concepts (sister ≠ brother)
+- opposite orientations (northern ≠ southern)
+- culturally motivated juxtapositions (body ≠ soul)
+#txt:pt_syn_Hypernym-desc
+A hypernym is a word whose meaning includes the meaning of a more specific word: 'animal' (animal) --> 'elefante' (elephant)
+#txt:pt_syn_Hyponym-desc
+A hyponym is a word whose meaning is included in the meaning of another more general word: 'autocarro' (bus) --> 'veículo' (vehicle)
+#txt:pt_syn_Member-holonym-desc
+A member holonym is a word that denotes a whole whose member is denoted by another word: 'trânsito' (traffic) --> 'carro' (car)
+#txt:pt_syn_Substance-holonym-desc
+A substance holonym is a word that denotes a whole whose substance is denoted by another word: 'roda' (wheel) --> 'plástico' (rubber)
+#txt:pt_syn_Part-holonym-desc
+A part holonym is a word that denotes a whole whose part is denoted by another word:'carro' (car) --> 'roda' (wheel)
+#txt:pt_syn_Member-meronym-desc
+A member meronym is a word used to denote a thing that is a member of something else: 'carro' (car) --> 'trânsito' (traffic)
+#txt:pt_syn_Substance-meronym-desc
+A substance meronym is a word used to denote a thing that is a substance of something else: 'plástico' (rubber) --> 'roda' (wheel)
+#txt:pt_syn_Part-meronym-desc
+A part meronym is a word used to denote a thing that is a part of something else: 'roda' (wheel) --> 'carro' (car)
+#txt:pt_syn_Similar-to-desc
+A word is similar to another when there is a resemblance in their meanings. This relation is used to link a Portuguese synset to its corresponding synset (its translation) in English : cat <--> 'gato'
+#txt:pt_synonym-desc
+A synonym is a word that means the same or nearly the same as another word in the language: 'começar' (start) = 'iniciar' (initiate)
+#txt:pt_syn_Entailment-desc
+A verb X entails Y if X cannot be done unless Y is, or has been, done: To sleep is entailed by to snore.

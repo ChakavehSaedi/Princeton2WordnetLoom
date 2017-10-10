@@ -1,0 +1,10 @@
+--id--	--name(text)--	--id_lexicon--	--uby_lmf_type--
+0	UNKNOWN	0	particle
+1	pt n	1	noun
+2	pt v	1	verb
+3	pt adj	1	adjective
+4	pt adv	1	adverb
+5	en n	2	noun
+6	en v	2	verb
+7	en adj	2	adjective
+8	en adv	2	adverb
